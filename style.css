@@ -1,0 +1,67 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    font-family: 'Albert Sans', sans-serif;
+    margin: 0px;
+}
+
+.main-logo {
+    margin-top: 10px;
+    font-size: 30px;
+}
+.nav {
+    text-decoration: none;
+    background-color: #131313;
+    width: 100%;
+    display: flex;
+}
+
+.nav-elements > a {
+    text-decoration: none;
+    color: #b3b2b2;
+    font-size: 1rem;
+
+}
+.nav-elements {
+    list-style: none;
+}
+
+.icon {
+    margin:10px
+}
+
+.card-img {
+    border-radius: 2rem;
+    max-height: 10rem;
+    margin-top: 10px;
+}
+
+.cards {
+    color: black;
+}
+.card {
+    max-width: 17rem;
+    justify-content: center;
+    margin: 20px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+ 
+.card-text-name {
+    font-size: 25px;
+    color: rgb(136, 136, 136);
+    text-decoration: none;
+}
+
+.card-text {
+    font-size: 15px;
+    color: rgb(136, 136, 136);
+    text-decoration: none;
+}
+
+.text-none {
+    text-decoration: none;
+    justify-content: center;
+}
