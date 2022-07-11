@@ -9,12 +9,19 @@ html, body {
 .main-logo {
     margin-top: 10px;
     font-size: 30px;
+    color: white;
+    font-family: 'Lora', serif;
 }
 .nav {
     text-decoration: none;
     background-color: #131313;
     width: 100%;
     display: flex;
+}
+
+.event-section {
+    display: flex;
+    justify-content: center;
 }
 
 .nav-elements > a {
@@ -40,8 +47,18 @@ html, body {
 .cards {
     color: black;
 }
+
 .card {
     max-width: 17rem;
+    justify-content: center;
+    margin: 20px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-article {
+    max-width: 24rem;
     justify-content: center;
     margin: 20px;
     text-align: center;
@@ -64,4 +81,9 @@ html, body {
 .text-none {
     text-decoration: none;
     justify-content: center;
+}
+
+.photo-site{
+    max-width: 9rem;
+    max-height: 9rem;
 }
