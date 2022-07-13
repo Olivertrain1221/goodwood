@@ -188,14 +188,13 @@ section {
     background-blend-mode:exclusion;
     bottom: 4px;
     max-width: 900px;
-    background-color: rgb(111, 111, 111);
+    background-color: rgba(111, 111, 111, 0.585);
     border-top-right-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
     height: 224px;
     margin-top: 30px;
     margin-top: 30px;
     text-align: center;
-    text-decoration: none;
 }
 
 .article-card-text-name {
@@ -203,13 +202,12 @@ section {
     color: #fff;
     text-align: center;
     padding: .75rem 0;
-    text-decoration: none;
-    text-decoration-line: none;
 }
 
 .pts {
     display: flex;
     justify-content: center;
+    text-decoration-line: none;
 }
 
 .article-card-text {
@@ -235,9 +233,17 @@ section {
     .article-card-body {
         width:10000px;
     }
+
+    .main-logo {
+        margin-top: 10px;
+    }
+
+    .my-link {
+        margin-top: 0px;
+    }
     
-    .nav-elements {
-        font-size: 1.0rem;
+    .nav-elements > a {
+        font-size: 20px;
     }
 
     .article-card-text-name {
@@ -274,7 +280,7 @@ section {
 
 
 }
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 1102px) {
     .nav {
         text-decoration: none;
         background-color: #131313;
@@ -294,5 +300,9 @@ section {
     }
     .my-link {
         margin-bottom: 5px;
+    }
+
+    .nav-elements {
+        margin: -4px;
     }
 }
