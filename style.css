@@ -7,7 +7,7 @@ html, body {
 }
 
 .main-logo {
-    font-size: 30px;
+    font-size: 60px;
     color: white;
     font-family: 'Lora', serif;
 }
@@ -33,7 +33,7 @@ html, body {
 .nav-elements > a {
     text-decoration: none;
     color: #b3b2b2;
-    font-size: 1rem;
+    font-size: 2.5rem;
 
 }
 .nav-elements {
@@ -265,5 +265,34 @@ section {
     }
     .my-link {
         margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 1980px) {
+    .nav-elements > a {
+        font-size: 1.0rem;
+    }
+
+    .nav-elements {
+        font-size: 1.0rem;
+    }
+}
+
+
+@media screen and (max-width: 1300px) {
+    .card-article {
+        width: 70px;
+    }
+    
+    .article-card-body {
+        width:10000px;
+    }
+    
+    .nav-elements {
+        font-size: 1.0rem;
+    }
+
+    .article-card-text-name {
+        font-size: 1.5rem;
     }
 }
